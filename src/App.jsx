@@ -66,7 +66,7 @@ import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
 import Veg from "./Veg";
 import NonVeg from "./NonVeg";
 import Cart from "./Cart";
-import AboutUs from "./Aboutus";
+import AboutUs from "./AboutUs";
 import ContactUs from "./ContactUs";
 import "./App.css";
 import { useDispatch, useSelector } from "react-redux";
