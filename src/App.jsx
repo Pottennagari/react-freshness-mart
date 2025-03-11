@@ -127,6 +127,7 @@ function App() {
 
             {/* Routes */}
             <Routes>
+                <Route path="/" element={<Home/>} />
                 <Route path="/home" element={<Home/>} />
                 <Route path="/veg" element={<Veg />} />
                 <Route path="/nonveg" element={<NonVeg />} />

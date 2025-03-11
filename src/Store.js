@@ -61,7 +61,7 @@ const cartSlice=createSlice({
                         let item=state.find(item=>item.name === action.payload.name);
                         if(item)
                         {
-;                            item.quantity +=1;
+  ;                         item.quantity +=1;
                         }
                     },
                     decreament:(state,action)=>{
@@ -77,7 +77,7 @@ const cartSlice=createSlice({
                     remove:(state,action)=>{
                         return state.filter(item=>item.name !== action.payload.name);
                     },
-                    clearCart:()=>[]
+                     clearCart:()=>[] 
                 }
 })
 const purchaseDetailsSlice=createSlice({

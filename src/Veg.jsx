@@ -36,7 +36,7 @@ function Veg() {
 
     return (
         <div className="container mt-4">&emsp;&emsp;
-            <h1 className="text-success p-3 fst-italic text-center">🥗 Delicious Veg Dishes 🥦</h1>
+            <h1 className="text-success p-3 fst-italic text-center">🥗 Delicious Veg Items 🥦</h1>
             <div className="mb-4 d-flex justify-content-center">
                 <input 
                     type="text" 
